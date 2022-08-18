@@ -1,0 +1,16 @@
+{
+  "name": "react-table-to-excel",
+  "version": "1.0.5",
+  "description": "",
+  "main": "./build/tableToExcel.js",
+  "scripts": {
+    "dev": "parcel sample/index.html",
+    "build": "parcel build src/tableToExcel.js --out-dir=build"
+  },
+  "author": "mistek",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.3.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}
